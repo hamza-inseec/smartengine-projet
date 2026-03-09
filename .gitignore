@@ -1,0 +1,12 @@
+# Données brutes (trop lourdes pour GitHub)
+data/raw/
+
+# Notebooks individuels (pas partagés)
+*.ipynb
+docs/exploration-*/
+
+# Python cache
+__pycache__/
+*.pyc
+.env
+
