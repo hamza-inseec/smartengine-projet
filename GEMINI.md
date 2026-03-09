@@ -1,4 +1,4 @@
-# Projet smartEngine - Groupe X
+# Projet smartEngine - Groupe 2
 
 ## Contexte
 Nous construisons smartEngine, un système de prédiction de churn
