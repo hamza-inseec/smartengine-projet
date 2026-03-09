@@ -1,18 +1,32 @@
-# smartEngine - Prédiction Churn RavenStack
-Groupe X - Branche wafaa - Sprint 1
+# Projet smartEngine - Groupe X
 
-## Mission
-Scoring prédictif churn pour SaaS B2B + dashboard + alertes CS
+## Contexte
+Nous construisons smartEngine, un système de prédiction de churn
+pour RavenStack, un SaaS B2B de gestion de projets.
 
-## ARBORESCENCE
-data/raw/           ← CSV ORIGINAUX (NE PAS MODIFIER)
-outputs/            ← rapports générés par agents
-src/                ← scripts Python générés
-docs/               ← veille/brief/conception manuelle
-.gemini/            ← agents IA réutilisables
+L'objectif est d'identifier les clients à risque de résiliation
+afin d'aider l'équipe Customer Success à agir avant le départ.
 
-## CONVENTIONS
-- TOUS rapports en FRANÇAIS
-- Ne jamais modifier data/raw/
-- Push régulier sur branche wafaa
-- Sprint 1 = Découverte dataset uniquement
+## Structure du projet
+
+data/raw/        → données CSV originales (NE JAMAIS MODIFIER)
+
+src/             → scripts Python générés par les agents
+
+outputs/         → rapports et analyses générés
+
+docs/            → documents du projet (veille, brief, conception)
+
+.gemini/agents/  → agents IA utilisés dans le projet
+
+## Conventions
+
+- Tous les rapports doivent être en français
+- Les données dans data/raw/ ne doivent jamais être modifiées
+- Les scripts Python doivent être placés dans /src
+- Les rapports doivent être placés dans /outputs
+- Chaque membre travaille sur sa branche personnelle
+
+## Sprint en cours
+
+Sprint 1 : Découverte du projet et exploration du dataset
