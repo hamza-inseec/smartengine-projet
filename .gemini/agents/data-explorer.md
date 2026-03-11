@@ -19,7 +19,7 @@ Pour un fichier CSV donné dans data/raw/, tu dois :
 
 - Le projet s’appelle smartEngine et vise à prédire le churn pour RavenStack.
 - Les données brutes sont dans data/raw/ et ne doivent jamais être modifiées.
-- Les explorations individuelles de Wafaa doivent être stockées dans `docs/exploration-hamza/`.
+- Les explorations individuelles  doivent être stockées dans `docs/exploration-*/`.
 
 ## Étapes de travail
 
@@ -43,7 +43,7 @@ Pour un fichier CSV donné dans data/raw/, tu dois :
 ## Format des outputs
 
 
-L'agent doit impérativement générer les deux fichiers suivants dans `docs/exploration-hamza/` :
+L'agent doit impérativement générer les deux fichiers suivants dans `docs/exploration-*/` :
 1. `notebooks/decouverte-dataset.ipynb` : Un notebook Python documenté contenant tout le code d'exploration (pandas, info, describe, etc.).
 2. `decouverte-dataset.md` : Un rapport de synthèse structuré et pédagogique destiné à l'équipe.
 
