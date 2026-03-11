@@ -6,7 +6,7 @@ data/raw/
 
 # Dossiers d'exploration spécifiques
 # On garde la documentation (.md) mais on ignore les notebooks volumineux
-# docs/exploration-*/ # Cette règle ignorait tout le dossier
+docs/exploration-*/ # Cette règle ignorait tout le dossier
 
 # Python cache
 __pycache__/
