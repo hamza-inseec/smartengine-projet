@@ -1,20 +1,43 @@
-# Brief Client - Projet smartEngine
+# Brief client – RavenStack / smartEngine
 
-## 1. Reformulation du Brief
-RavenStack, une entreprise SaaS B2B spécialisée dans la gestion de projets pour les équipes tech, souhaite stabiliser et développer sa base de clients. La mission consiste à concevoir **smartEngine**, une solution d'intelligence artificielle dédiée à la prédiction du churn (atrition client). Cet outil doit permettre d'anticiper les départs pour transformer une approche réactive en une stratégie de rétention proactive.
+## 1. Contexte
 
-## 2. Problème Métier
-Le problème central est la perte de **MRR (Monthly Recurring Revenue)** causée par le désabonnement des clients. Actuellement, l'équipe Customer Success intervient souvent trop tard, une fois que la décision de résiliation est déjà prise ou que l'usage de la plateforme a drastiquement chuté. Sans visibilité prédictive, il est impossible de prioriser efficacement les efforts de rétention sur les comptes les plus à risque mais encore sauvables.
+RavenStack est un éditeur SaaS B2B qui propose une plateforme de gestion de projets pour des équipes tech.  
+L’entreprise fonctionne par abonnement (Starter, Growth, Enterprise) et génère du MRR à partir des abonnements actifs.
 
-## 3. Solution : smartEngine
-Nous allons construire un système intelligent qui :
-*   Analyse les données historiques de navigation, d'usage des fonctionnalités et de facturation.
-*   Identifie les signaux faibles précurseurs d'un désabonnement.
-*   Génère un score de risque pour chaque compte client.
-*   Fournit des alertes actionnables à l'équipe Customer Success pour prioriser leurs interventions.
+Aujourd’hui, RavenStack fait face à un problème de churn : chaque mois, une partie des clients résilie et le MRR diminue de façon difficilement prévisible.  
 
-## 4. Critères de Succès
-Le succès du projet sera mesuré selon les indicateurs suivants :
-*   **Précision du modèle (Precision/Recall) :** Atteindre un score de rappel (Recall) d'au moins 75% sur les clients ayant réellement résilié leur abonnement.
-*   **Réduction du Churn :** Diminuer le taux de churn mensuel de RavenStack de 15% dans les 6 mois suivant le déploiement.
-*   **Adoption interne :** 100% des comptes identifiés comme "à haut risque" par smartEngine doivent faire l'objet d'une action documentée par l'équipe Customer Success.
+## 2. Problématique
+
+Sans système de prédiction, les équipes Customer Success ne savent pas quels comptes sont réellement à risque.  
+Elles interviennent trop tard ou de manière non priorisée, ce qui limite l’impact des actions de rétention.
+
+RavenStack a besoin d’identifier en amont les comptes qui risquent le plus de partir pour concentrer les efforts sur ces clients.
+
+## 3. Solution proposée : smartEngine
+
+Notre équipe va concevoir smartEngine, un système de scoring de churn basé sur les données historiques de RavenStack :
+
+- Analyse et nettoyage des données clients (accounts, subscriptions, feature usage, support tickets, churn events).  
+- Construction d’un modèle de prédiction du churn.  
+- Mise à disposition du score dans un dashboard utilisable par les équipes Customer Success.  
+- Automatisation d’alertes pour les comptes à risque élevé.
+
+## 4. Parties prenantes
+
+- Direction de RavenStack : pilote la stratégie MRR et churn.  
+- Équipe Customer Success : utilisatrice principale du score et du dashboard.  
+- Équipe Data / projet (nous) : conception, modélisation, mise en place du système.
+
+## 5. Critères de succès (mesurables)
+
+1. *Performance modèle* : obtenir un modèle de churn avec une AUC ≥ 0,75 sur le jeu de test.  
+2. *Impact métier* : réduire le churn mensuel d’au moins X % sur une période de test (à définir avec RavenStack).  
+3. *Adoption* : avoir au moins Y utilisateurs actifs côté Customer Success qui consultent le dashboard chaque semaine.  
+4. *Opérationnel* : déclenchement automatique d’alertes pour 100 % des comptes classés « risque élevé ».
+
+## 6. Périmètre du Sprint 1
+
+- Compréhension du contexte métier et du modèle économique SaaS B2B.  
+- Mise en place de l’infrastructure (GitHub, GEMINI.md, orchetration d’agents IA).  
+- Première exploration du dataset RavenStack et identification de signaux potentiels de churn.
