@@ -102,8 +102,4 @@ Génère un script Python `src/build_features.py` qui ajoute ces colonnes calcul
 - Le rapport `outputs/rapport-nettoyage.md` est complet avec les chiffres avant/après nettoyage
 ```
 
-**Étape 5 — Valide le fichier**
 
-Fais défiler vers le bas, et clique sur **"Commit changes"** (bouton vert). Dans le message de commit, écris :
-```
-feat: ajout agent data-engineer Sprint 2
