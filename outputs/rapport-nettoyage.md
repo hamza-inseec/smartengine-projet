@@ -52,3 +52,31 @@ La qualité des données de RavenStack est jugée **satisfaisante** pour la cons
 - **Activité récente** : L'utilisation de la date du jour pour combler les `end_date` vides est cruciale pour le calcul de la feature `anciennete`.
 
 **Conclusion :** Les données sont prêtes à être nettoyées et transformées via les scripts `src/clean_data.py` et `src/build_analytics.py`.
+
+## 3. Variable cible : justification de la source
+
+Le choix et la construction de la variable cible (`churn`) sont des étapes critiques pour la performance du modèle prédictif. Voici les justifications méthodologiques retenues :
+
+### Justification de la source de données
+Le fichier `ravenstack_churn_events.csv` a été privilégié comme source unique pour définir le churn. Contrairement à une approche basée sur l'inactivité (via `feature_usage.csv`), le churn renseigné ici correspond à un **acte explicite de résiliation**. L'inactivité peut être temporaire, saisonnière ou liée à une baisse d'usage ponctuelle, tandis que l'événement de churn confirme la fin de la relation commerciale.
+
+### Logique de construction
+La variable cible est construite selon la règle suivante :
+*   **`churn = 1`** : L'identifiant du compte (`account_id`) est présent dans le fichier des événements de résiliation.
+*   **`churn = 0`** : Le compte est toujours actif ou n'a aucun événement de résiliation enregistré.
+
+Pour les **175 comptes** présentant des événements de churn multiples (réactivations suivies d'une nouvelle résiliation), seul l'événement le plus récent a été conservé. Cette approche permet de capturer l'état final du compte et d'aligner les prédicteurs sur la situation la plus actuelle.
+
+### Choix du format binaire
+Nous avons opté pour une variable binaire (0/1). C'est le format standard et optimal pour un problème de **classification supervisée** dans un contexte SaaS B2B. Cela permet d'utiliser une large gamme d'algorithmes (Régression Logistique, Random Forest, XGBoost) pour prédire la probabilité d'un événement discret.
+
+### Prévention du data leakage
+Afin d'éviter toute fuite de données (data leakage), une attention particulière a été portée à la temporalité. Pour tous les comptes ayant churné, nous nous assurons que les caractéristiques d'usage, de support et d'abonnement sont calculées sur une période **strictement antérieure** à la date de résiliation (`churn_date`). Cela garantit que le modèle apprend à prédire le churn à partir de signaux précurseurs et non de conséquences de la résiliation.
+
+### Statistiques de la variable cible
+Basé sur la table analytique finale `data/processed/analytics.csv`, la répartition est la suivante :
+
+*   **Comptes avec churn (`churn=1`)** : 352 (70.40 %)
+*   **Comptes sans churn (`churn=0`)** : 148 (29.60 %)
+
+Cette répartition montre un déséquilibre en faveur des comptes ayant churné dans cet échantillon, ce qui devra être pris en compte lors de l'entraînement du modèle (via des techniques de rééquilibrage ou le choix de métriques adaptées comme le F1-score).
