@@ -1,0 +1,14 @@
+# Données brutes (trop lourdes pour GitHub)
+data/raw/
+
+# Notebooks individuels (pas partagés)
+*.ipynb
+
+# Dossiers d'exploration spécifiques
+# On garde la documentation (.md) mais on ignore les notebooks volumineux
+docs/exploration-*/ # Cette règle ignorait tout le dossier
+
+# Python cache
+__pycache__/
+*.pyc
+.env
