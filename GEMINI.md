@@ -7,27 +7,28 @@ L'objectif est d'identifier les clients à risque de résiliation
 afin d'aider l'équipe Customer Success à agir avant le départ.
 Les données brutes sont dans /data/raw/.
 
-## Équipe Sprint 2
-- Scrum Master : Elghali Nesrine
-- Product Owner : Wafaa Benkorreche
-- Développeurs IA : Hamza Agoumi
-- Développeurs IA : Danna Rodriguez
+## Équipe Sprint 3
+- Scrum Master : Danna Rodriguez
+- Product Owner : Hamza Agoumi
+- Développeurs IA : Elghali Nesrine
+- Développeurs IA : Wafaa Benkorreche
 
-## Ce qui a été fait au Sprint 1
-- Dépôt GitHub créé et structuré
-- GEMINI.md initial rédigé
-- Veille outils complète (6 fiches) → docs/veille-outils.md
-- Brief client reformulé → docs/brief-client.md
-- Agent d'exploration créé → .gemini/agents/data-explorer.md
-- Dataset exploré → docs/exploration-hamza/decouverte-dataset.md
+## Ce qui a été fait au Sprint 2
+- Données nettoyées et validées
+- Table analytique produite : `data/processed/analytics.csv` (500 comptes, 21 features)
+- Scripts de traitement automatisés : `src/clean_data.py`, `src/build_features.py`
 
 ## Sprint en cours
-Sprint 2 — Traitement des données (30 mars 2026)
+Sprint 3 — Modélisation et Prédiction (27 avril 2026)
 
-## Objectif Sprint 2
-Produire data/processed/analytics.csv :
-une table analytique avec une ligne par account_id,
-contenant toutes les features nécessaires pour la modélisation.
+## Objectif Sprint 3
+Entraîner un modèle prédictif performant pour identifier le churn et générer des scores de risque actionnables pour les équipes métiers.
+
+## Livrables Sprint 3
+- Agent de modélisation : `.gemini/agents/model-trainer.md`
+- Meilleur modèle sauvegardé : `outputs/models/churn_model.joblib`
+- Rapport de performance : `outputs/rapport-modele.md`
+- Fichier de scoring final : `outputs/scores.csv`
 
 ## Structure du projet
 - data/raw/          → données CSV originales (NE JAMAIS MODIFIER)
