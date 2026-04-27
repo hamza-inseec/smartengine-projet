@@ -1,3 +1,8 @@
+---
+name: model-trainer
+description: Agent spécialisé dans la modélisation prédictive du churn pour smartEngine
+---
+
 # Agent : Model Trainer
 
 ## Description

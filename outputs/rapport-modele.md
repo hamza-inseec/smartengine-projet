@@ -1,46 +1,54 @@
 # Rapport de Modélisation Prédictive - smartEngine
 
-## 1. Performance des Modèles
+## 1. Performance des Modèles (Mis à jour)
 
-| Modèle | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| Logistic Regression | 0.680 | 0.779 | 0.757 | 0.768 | 0.670 |
-| Random Forest | 0.670 | 0.718 | 0.871 | 0.787 | 0.620 |
-| Gradient Boosting | 0.620 | 0.729 | 0.729 | 0.729 | 0.592 |
+Suite à l'ajout de la normalisation (`StandardScaler`) et de l'encodage des variables catégorielles, voici les nouvelles performances basées sur l'AUC-ROC :
 
-## 2. Matrices de Confusion
-
-### Logistic Regression
-```
-[[15 15]
- [17 53]]
-```
-### Random Forest
-```
-[[ 6 24]
- [ 9 61]]
-```
-### Gradient Boosting
-```
-[[11 19]
- [19 51]]
-```
-
-## 3. Importance des Variables (Meilleur Modèle)
-
-| Variable | Importance |
+| Modèle | AUC-ROC |
 | :--- | :---: |
-| anciennete_mois | 0.1651 |
-| usage_total_count | 0.1081 |
-| nb_sieges_max | 0.0797 |
-| mrr_moyen | 0.0765 |
-| tendance_usage | 0.0724 |
-| delai_resolution_moyen | 0.0653 |
-| usage_moyen_3mois | 0.0641 |
-| nb_tickets_total | 0.0636 |
-| nb_features_uniques | 0.0605 |
-| jours_depuis_derniere_activite | 0.0554 |
+| **Logistic Regression** | **0.6619** |
+| Random Forest | 0.6314 |
+| Gradient Boosting | 0.6086 |
 
-## 4. Justification du Modèle Retenu
+## 2. Analyse SHAP (Interprétabilité)
 
-Le modèle **Random Forest** a été sélectionné pour la production car il présente le meilleur équilibre entre Précision et Rappel (F1-Score le plus élevé). Sa capacité à gérer les déséquilibres de classes via `class_weight='balanced'` et à capturer des relations non-linéaires le rend particulièrement robuste pour la prédiction du churn.
+L'analyse SHAP (SHapley Additive exPlanations) permet de comprendre l'impact de chaque variable sur la prédiction individuelle du risque de churn pour la Régression Logistique.
+
+| Variable | Importance SHAP | Sens Métier pour RavenStack |
+| :--- | :--- | :--- |
+| **usage_total_count** | 360.51 | L'activité globale est le premier indicateur. Une baisse radicale signale un abandon progressif de l'outil. |
+| **mrr_moyen** | 35.44 | Les comptes à MRR élevé sont plus stables, mais leur départ serait plus coûteux. |
+| **usage_moyen_3mois** | 6.90 | Reflète l'engagement récent. Une déconnexion entre l'usage historique et récent est critique. |
+| **anciennete_mois** | 5.33 | Les nouveaux clients sont plus fragiles (risque de "early churn"). |
+| **nb_features_uniques** | 4.59 | Un client qui utilise peu de fonctionnalités différentes perçoit moins la valeur de la plateforme. |
+
+## 3. Analyse de Biais
+
+Nous avons audité les performances du modèle sur différents segments pour garantir l'équité des alertes.
+
+### Par Industrie
+- **FinTech** : Recall = **53.3%** ⚠️ (Le modèle manque près de la moitié des churners dans ce secteur).
+- **Cybersecurity / EdTech / DevTools** : Recall > 80% (Excellente détection).
+- **HealthTech** : Recall = 71.4%.
+
+### Par Type de Plan
+- **SMB** (est_enterprise=0) : Recall = 78.8%
+- **Enterprise** (est_enterprise=1) : Recall = **55.5%** ⚠️
+
+**Note :** Le modèle est moins performant sur les gros comptes (Enterprise) et le secteur FinTech. Une collecte de données spécifiques à ces segments (ex: feedback qualitatif) est recommandée.
+
+## 4. Justification des Seuils de Risque
+
+Les scores de probabilité (0 à 1) ont été segmentés en trois catégories basées sur la distribution observée (Percentiles 50 et 80) :
+
+| Niveau | Seuil (Score) | Signification Métier | Action Recommandée |
+| :--- | :--- | :--- | :--- |
+| **High** | >= 0.95 | Risque Critique | Action immédiate du CSM (appel direct, offre de rétention). |
+| **Medium** | 0.86 - 0.95 | Surveillance | Envoi d'un email automatisé ou check-up de santé du compte. |
+| **Low** | < 0.86 | Stable | Compte sain. Continuer les rituels de succès habituels. |
+
+Ces seuils garantissent que l'équipe CSM concentre ses efforts sur les 20% de comptes les plus à risque (Top 20% = High Risk).
+
+## 5. Conclusion
+
+Le modèle de **Régression Logistique** avec normalisation est retenu pour la phase pilote. Malgré un AUC-ROC modéré (0.66), il offre une interprétabilité claire via SHAP et permet de prioriser efficacement les interventions.
