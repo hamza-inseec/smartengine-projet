@@ -166,9 +166,9 @@ elif vue == "🔍 Fiche compte":
 
     st.divider()
 
-    # Explication SHAP
-    st.subheader("🧠 Pourquoi ce score ? (explication SHAP)")
-    st.caption("Les barres montrent quels facteurs augmentent (+) ou diminuent (–) le risque de churn.")
+    # Explication : Feature Importances
+    st.subheader("🧠 Pourquoi ce score ? (facteurs de risque)")
+    st.caption("Les barres montrent quels facteurs contribuent le plus au risque de churn.")
 
     feature_cols = [
         "anciennete_mois", "nb_changements_plan", "mrr_moyen", "nb_sieges_max",
@@ -179,32 +179,22 @@ elif vue == "🔍 Fiche compte":
         "jours_depuis_derniere_activite", "usage_moyen_3mois", "tendance_usage"
     ]
     available_cols = [c for c in feature_cols if c in df.columns]
-    X_row = df[df["account_id"] == account][available_cols]
 
     try:
-        explainer   = shap.TreeExplainer(model)
-        shap_values = explainer.shap_values(X_row)
-
-        # Gestion modèles binaires (shap_values peut être une liste)
-        if isinstance(shap_values, list):
-            sv = shap_values[1][0]
-        else:
-            sv = shap_values[0]
-
-        shap_df = pd.DataFrame({
+        importances = model.feature_importances_
+        feat_df = pd.DataFrame({
             "Feature": available_cols,
-            "SHAP":    sv
-        }).sort_values("SHAP", key=abs, ascending=True).tail(10)
+            "Importance": importances[:len(available_cols)]
+        }).sort_values("Importance", ascending=True).tail(10)
 
-        fig_shap = px.bar(
-            shap_df, x="SHAP", y="Feature", orientation="h",
-            color="SHAP",
-            color_continuous_scale=["#22C55E", "#F9FAFB", "#EF4444"],
-            color_continuous_midpoint=0,
-            labels={"SHAP": "Impact sur le score", "Feature": "Variable"}
+        fig_imp = px.bar(
+            feat_df, x="Importance", y="Feature", orientation="h",
+            color="Importance",
+            color_continuous_scale=["#3B82F6", "#EF4444"],
+            labels={"Importance": "Importance du facteur", "Feature": "Variable"}
         )
-        fig_shap.update_layout(coloraxis_showscale=False)
-        st.plotly_chart(fig_shap, use_container_width=True)
+        fig_imp.update_layout(coloraxis_showscale=False)
+        st.plotly_chart(fig_imp, use_container_width=True)
 
     except Exception as e:
-        st.warning(f"Explication SHAP non disponible : {e}")
+        st.warning(f"Explication non disponible : {e}")
