@@ -1,0 +1,123 @@
+"""
+generate_priorisation.py — Sprint 4 smartEngine
+Croise scores.csv avec la valeur MRR pour produire outputs/priorisation.csv
+
+Usage :
+    python src/generate_priorisation.py
+
+Entrées attendues :
+    outputs/scores.csv      — colonnes : account_id, churn_score, risk_level
+    data/processed/analytics.csv — doit contenir account_id et mrr
+
+Sortie :
+    outputs/priorisation.csv
+"""
+
+import pandas as pd
+import numpy as np
+from pathlib import Path
+
+# ── Chemins ────────────────────────────────────────────────────────────────
+ROOT = Path(__file__).resolve().parent  # priorisation.py est à la racine
+SCORES_PATH    = ROOT / "outputs" / "scores.csv"
+ANALYTICS_PATH = ROOT / "data" / "processed" / "analytics.csv"
+OUTPUT_PATH    = ROOT / "outputs" / "priorisation.csv"
+
+# ── Actions par quadrant ────────────────────────────────────────────────────
+ACTIONS = {
+    "Risque élevé / Valeur élevée": "Appel CSM immédiat (< 24h) + offre de fidélisation personnalisée",
+    "Risque élevé / Valeur faible": "Email automatisé de rétention + relance J+7",
+    "Risque faible / Valeur élevée": "Surveillance mensuelle + programme loyalty",
+    "Risque faible / Valeur faible": "Aucune action prioritaire",
+}
+
+
+def load_data() -> tuple[pd.DataFrame, pd.DataFrame]:
+    scores = pd.read_csv(SCORES_PATH)
+    analytics = pd.read_csv(ANALYTICS_PATH)
+    return scores, analytics
+
+
+def merge_mrr(scores: pd.DataFrame, analytics: pd.DataFrame) -> pd.DataFrame:
+    """Joint les scores avec le MRR depuis analytics.csv."""
+    # On garde la dernière valeur MRR connue par compte
+    if "mrr" not in analytics.columns:
+        raise ValueError(
+            "La colonne 'mrr' est absente de analytics.csv. "
+            "Vérifiez le nom exact de la colonne (ex: monthly_revenue, mrr_usd…)"
+        )
+    mrr = (
+        analytics.groupby("account_id")["mrr"]
+        .last()
+        .reset_index()
+        .rename(columns={"mrr": "mrr"})
+    )
+    merged = scores.merge(mrr, on="account_id", how="left")
+    missing = merged["mrr"].isna().sum()
+    if missing:
+        print(f"⚠️  {missing} comptes sans MRR — valeur 0 attribuée.")
+    merged["mrr"] = merged["mrr"].fillna(0)
+    return merged
+
+
+def assign_quadrant(df: pd.DataFrame, mrr_threshold: float | None = None) -> pd.DataFrame:
+    """
+    Affecte chaque compte à un quadrant de la matrice risque / valeur.
+
+    Risque : risk_level == "high"  →  risque élevé
+    Valeur : mrr >= médiane        →  valeur élevée
+    """
+    if mrr_threshold is None:
+        mrr_threshold = df["mrr"].median()
+        print(f"ℹ️  Seuil MRR (médiane) : {mrr_threshold:.2f} €")
+
+    high_risk  = df["risk_level"].str.lower() == "high"
+    high_value = df["mrr"] >= mrr_threshold
+
+    conditions = [
+        high_risk  &  high_value,
+        high_risk  & ~high_value,
+        ~high_risk &  high_value,
+        ~high_risk & ~high_value,
+    ]
+    labels = list(ACTIONS.keys())
+
+    df = df.copy()
+    df["quadrant"]            = np.select(conditions, labels, default="Risque faible / Valeur faible")
+    df["action_recommandee"]  = df["quadrant"].map(ACTIONS)
+    df["mrr_threshold_used"]  = mrr_threshold
+    return df
+
+
+def main() -> None:
+    print("─── generate_priorisation.py ───")
+
+    scores, analytics = load_data()
+    print(f"✓ scores.csv      : {len(scores)} lignes")
+    print(f"✓ analytics.csv   : {len(analytics)} lignes")
+
+    df = merge_mrr(scores, analytics)
+    df = assign_quadrant(df)
+
+    # Colonnes finales
+    cols = ["account_id", "churn_score", "risk_level", "mrr", "quadrant", "action_recommandee"]
+    # On ajoute les colonnes optionnelles si présentes
+    for extra in ["plan", "tenure_months", "company_size"]:
+        if extra in df.columns:
+            cols.insert(3, extra)
+
+    df = df[cols].sort_values(["quadrant", "churn_score"], ascending=[True, False])
+
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    df.to_csv(OUTPUT_PATH, index=False)
+    print(f"✓ priorisation.csv écrit → {OUTPUT_PATH}")
+
+    # Résumé
+    print("\n── Répartition par quadrant ──")
+    print(df["quadrant"].value_counts().to_string())
+    q1 = df[df["quadrant"] == "Risque élevé / Valeur élevée"]
+    print(f"\n🔴 Priorité maximale : {len(q1)} comptes  |  MRR à risque : {q1['mrr'].sum():,.0f} €")
+
+
+if __name__ == "__main__":
+    main()
