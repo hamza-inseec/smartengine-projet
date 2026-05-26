@@ -1,0 +1,501 @@
+account_id,churn_score,risk_level,MRR,quadrant,action_recommandee
+A-2e4581,0.9,medium,826.7142857142857,Q2 - Action automatisée,Email automatisé de relance
+A-43a9e3,0.26,low,1250.5,Q4 - Stable,Aucune action prioritaire
+A-0a282f,0.62,low,1219.0666666666666,Q2 - Action automatisée,Email automatisé de relance
+A-1f0ac7,0.97,high,1498.2,Q2 - Action automatisée,Email automatisé de relance
+A-ce550d,0.84,low,3383.75,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-1b9609,0.87,medium,1528.1818181818182,Q2 - Action automatisée,Email automatisé de relance
+A-a0ca4e,0.64,low,1848.111111111111,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-e5d6ab,0.95,high,1330.1666666666667,Q2 - Action automatisée,Email automatisé de relance
+A-7dacce,0.82,low,2305.7,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-10b8da,0.1,low,1464.5,Q4 - Stable,Aucune action prioritaire
+A-592832,0.83,low,3555.8,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-d40bf7,0.24,low,4324.7,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-6c093d,0.24,low,1353.5,Q4 - Stable,Aucune action prioritaire
+A-462d45,0.88,medium,2023.375,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-956988,0.92,medium,1919.9166666666667,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-ac14bb,0.85,low,3468.25,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-463db0,0.87,medium,2088.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-ce66f8,0.32,low,1976.3333333333333,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-c4ea60,0.17,low,1627.3333333333333,Q4 - Stable,Aucune action prioritaire
+A-832ec2,0.75,low,703.0,Q2 - Action automatisée,Email automatisé de relance
+A-684255,0.9,medium,554.5,Q2 - Action automatisée,Email automatisé de relance
+A-c42f1f,0.33,low,646.875,Q4 - Stable,Aucune action prioritaire
+A-4e44e8,0.89,medium,2174.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-30b4ca,0.97,high,10614.857142857143,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-9f2731,0.95,high,516.1428571428571,Q2 - Action automatisée,Email automatisé de relance
+A-32fb14,0.96,high,487.6666666666667,Q2 - Action automatisée,Email automatisé de relance
+A-00cac8,0.26,low,1569.0,Q4 - Stable,Aucune action prioritaire
+A-35083d,0.11,low,2027.0625,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-eb7fac,0.9,medium,6113.666666666667,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-b20d99,0.98,high,2180.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-396e5f,0.93,medium,1021.5,Q2 - Action automatisée,Email automatisé de relance
+A-45ce7a,0.31,low,1173.7142857142858,Q4 - Stable,Aucune action prioritaire
+A-08e34e,0.98,high,708.75,Q2 - Action automatisée,Email automatisé de relance
+A-8145a0,1.0,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-bad8c1,0.98,high,1722.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-44dc83,0.96,high,114.0,Q2 - Action automatisée,Email automatisé de relance
+A-f446b6,0.19,low,1265.7777777777778,Q4 - Stable,Aucune action prioritaire
+A-a45270,0.86,medium,2154.1111111111113,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-854864,0.96,high,4219.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-1b7577,0.21,low,797.3636363636364,Q4 - Stable,Aucune action prioritaire
+A-05f0e5,0.54,low,4259.083333333333,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-9077b0,0.24,low,509.2857142857143,Q4 - Stable,Aucune action prioritaire
+A-7f8241,0.5,low,2634.4,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-2bc93d,0.69,low,3384.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-f3ff05,0.96,high,2066.777777777778,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-2d4502,0.96,high,392.0,Q2 - Action automatisée,Email automatisé de relance
+A-6a4e2d,0.94,medium,1023.7777777777778,Q2 - Action automatisée,Email automatisé de relance
+A-eb7c38,0.98,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-c37601,0.96,high,538.0,Q2 - Action automatisée,Email automatisé de relance
+A-3b5cd1,0.91,medium,1054.2,Q2 - Action automatisée,Email automatisé de relance
+A-b2225d,0.73,low,2561.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-94f8c9,0.9,medium,1074.6666666666667,Q2 - Action automatisée,Email automatisé de relance
+A-02fac6,0.8,low,2513.3333333333335,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-c1dfe1,0.92,medium,2392.6,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-32728c,0.84,low,528.5714285714286,Q2 - Action automatisée,Email automatisé de relance
+A-4c38bc,0.29,low,3003.75,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-1b707d,1.0,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-6f8ad2,0.13,low,1525.1764705882354,Q4 - Stable,Aucune action prioritaire
+A-4d1e75,0.96,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-9ee962,0.75,low,1046.6666666666667,Q2 - Action automatisée,Email automatisé de relance
+A-378b99,0.65,low,937.0,Q2 - Action automatisée,Email automatisé de relance
+A-94d3da,0.79,low,1526.111111111111,Q2 - Action automatisée,Email automatisé de relance
+A-e351e1,0.96,high,717.75,Q2 - Action automatisée,Email automatisé de relance
+A-9badbd,0.16,low,2498.230769230769,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-7e0a10,0.86,medium,3020.6666666666665,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-118d55,0.85,low,1939.6666666666667,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-526d93,0.89,medium,3545.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-f92792,0.82,low,1999.6666666666667,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-84ebe4,0.98,high,2701.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-5b4ebb,0.19,low,2138.6923076923076,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-2922b6,0.96,high,1937.8,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-9b9fe9,0.84,low,491.875,Q2 - Action automatisée,Email automatisé de relance
+A-a8b49c,0.9,medium,495.3333333333333,Q2 - Action automatisée,Email automatisé de relance
+A-9174e0,0.3,low,3598.4,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-a1bbb6,0.4,low,1800.25,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-c45b23,0.98,high,246.66666666666663,Q2 - Action automatisée,Email automatisé de relance
+A-02cd81,0.95,high,418.0,Q2 - Action automatisée,Email automatisé de relance
+A-ee42db,0.83,low,999.7272727272727,Q2 - Action automatisée,Email automatisé de relance
+A-432483,0.36,low,2868.1111111111113,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-9208f0,0.84,low,438.875,Q2 - Action automatisée,Email automatisé de relance
+A-98a59a,0.89,medium,2821.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-fe79a5,0.27,low,1353.2,Q4 - Stable,Aucune action prioritaire
+A-726cfa,0.86,medium,1337.642857142857,Q2 - Action automatisée,Email automatisé de relance
+A-c43359,0.91,medium,1655.7142857142858,Q2 - Action automatisée,Email automatisé de relance
+A-271f46,0.66,low,1621.3333333333333,Q2 - Action automatisée,Email automatisé de relance
+A-157070,0.58,low,1719.125,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-40a557,0.99,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-66224b,0.19,low,5765.333333333333,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-91e948,0.2,low,3127.714285714286,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-104f1a,0.87,medium,1799.1666666666667,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-7988d1,0.69,low,1188.0,Q2 - Action automatisée,Email automatisé de relance
+A-faa28c,0.86,medium,3601.7,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-f25509,0.99,high,3759.75,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-3a7284,0.91,medium,3090.909090909091,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-3a5ad8,0.26,low,2207.769230769231,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-65a46c,0.22,low,2834.375,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-8b25f2,0.3,low,1080.6153846153843,Q4 - Stable,Aucune action prioritaire
+A-fabe19,0.33,low,2928.1428571428573,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-adc1f3,0.26,low,2956.4444444444443,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-503d5a,0.23,low,1490.3333333333333,Q4 - Stable,Aucune action prioritaire
+A-fd7ad3,0.93,medium,383.1,Q2 - Action automatisée,Email automatisé de relance
+A-186a44,0.24,low,1499.2142857142858,Q4 - Stable,Aucune action prioritaire
+A-e888d1,0.72,low,1281.3,Q2 - Action automatisée,Email automatisé de relance
+A-69fad4,0.99,high,1245.857142857143,Q2 - Action automatisée,Email automatisé de relance
+A-9289f6,1.0,high,323.0,Q2 - Action automatisée,Email automatisé de relance
+A-f19409,1.0,high,2156.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-22f2df,0.63,low,827.8888888888889,Q2 - Action automatisée,Email automatisé de relance
+A-039727,0.92,medium,2428.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-2e3bad,0.91,medium,4529.25,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-484819,0.97,high,2502.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-425e76,0.87,medium,1555.5454545454545,Q2 - Action automatisée,Email automatisé de relance
+A-e83938,0.92,medium,937.875,Q2 - Action automatisée,Email automatisé de relance
+A-ad296b,0.22,low,3071.6666666666665,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-e51ec7,0.98,high,2487.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-0aaf6e,0.16,low,2676.0,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-e61e98,0.65,low,1498.2222222222222,Q2 - Action automatisée,Email automatisé de relance
+A-92a333,0.13,low,1776.5,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-95b24a,0.2,low,2275.818181818182,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-42e5e1,0.95,high,1012.0,Q2 - Action automatisée,Email automatisé de relance
+A-7d514c,0.52,low,2697.1111111111113,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-65aeb5,0.82,low,2866.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-e2cd1b,0.26,low,1394.2222222222222,Q4 - Stable,Aucune action prioritaire
+A-180abf,0.88,medium,5964.8,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-f17767,0.96,high,639.3333333333334,Q2 - Action automatisée,Email automatisé de relance
+A-5a184f,0.59,low,2497.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-7df7a7,0.73,low,1755.1666666666667,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-1ac5e0,0.27,low,1824.9,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-52dd88,0.12,low,1508.3636363636365,Q4 - Stable,Aucune action prioritaire
+A-bece89,0.96,high,3477.6,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-029f69,0.79,low,964.4285714285714,Q2 - Action automatisée,Email automatisé de relance
+A-5c046d,0.83,low,10485.75,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-fb186e,0.34,low,1923.6666666666667,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-ae052e,0.91,medium,1538.6,Q2 - Action automatisée,Email automatisé de relance
+A-9f9299,0.91,medium,3451.6363636363635,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-96e141,0.91,medium,2209.714285714286,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-117171,0.89,medium,3270.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-313be3,0.94,medium,3885.3333333333335,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-671f31,0.27,low,5064.166666666667,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-bbc346,0.9,medium,2778.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-c16101,0.65,low,1342.111111111111,Q2 - Action automatisée,Email automatisé de relance
+A-50f3f7,0.15,low,2938.4666666666667,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-7da956,0.27,low,913.5833333333334,Q4 - Stable,Aucune action prioritaire
+A-019782,0.16,low,928.1111111111112,Q4 - Stable,Aucune action prioritaire
+A-df10db,0.91,medium,1008.4444444444443,Q2 - Action automatisée,Email automatisé de relance
+A-3932db,0.22,low,1565.2222222222222,Q4 - Stable,Aucune action prioritaire
+A-4f18f0,0.89,medium,2709.818181818182,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-4c6f11,0.94,medium,1517.2,Q2 - Action automatisée,Email automatisé de relance
+A-8ae05d,0.96,high,1225.5,Q2 - Action automatisée,Email automatisé de relance
+A-b78bf8,0.9,medium,2359.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-eafc6e,0.85,low,2318.4285714285716,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-37f969,0.89,medium,2869.875,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-10b8f2,0.85,low,2836.7,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-439b2f,0.96,high,104.4,Q2 - Action automatisée,Email automatisé de relance
+A-544d0a,0.55,low,1849.2,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-ba6516,0.97,high,1962.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-712426,0.76,low,842.3076923076923,Q2 - Action automatisée,Email automatisé de relance
+A-038089,0.7,low,1004.5,Q2 - Action automatisée,Email automatisé de relance
+A-afa505,0.93,medium,1715.0,Q2 - Action automatisée,Email automatisé de relance
+A-d5a319,0.16,low,3153.9166666666665,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-f97b9a,0.1,low,2166.6363636363635,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-2f6a32,0.25,low,683.0,Q4 - Stable,Aucune action prioritaire
+A-856b1e,0.88,medium,1053.5,Q2 - Action automatisée,Email automatisé de relance
+A-17939a,0.26,low,879.0,Q4 - Stable,Aucune action prioritaire
+A-d27f50,0.23,low,3734.5833333333335,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-e36807,0.31,low,1256.9,Q4 - Stable,Aucune action prioritaire
+A-ff79f2,0.29,low,3097.0,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-5b1bcd,0.8,low,8826.363636363636,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-71615e,0.96,high,2985.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-794a0b,0.92,medium,1510.7142857142858,Q2 - Action automatisée,Email automatisé de relance
+A-86902e,0.28,low,3252.777777777778,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-0532a9,0.89,medium,551.0,Q2 - Action automatisée,Email automatisé de relance
+A-9779ad,0.9,medium,6368.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-f45426,0.68,low,980.1428571428572,Q2 - Action automatisée,Email automatisé de relance
+A-c1e51e,0.89,medium,2255.285714285714,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-fa3095,0.81,low,7822.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-ad64c6,0.98,high,2653.3333333333335,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-39b19f,0.99,high,980.0,Q2 - Action automatisée,Email automatisé de relance
+A-56962b,0.93,medium,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-e60f9d,0.66,low,3387.8,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-88c6ca,0.87,medium,921.2857142857144,Q2 - Action automatisée,Email automatisé de relance
+A-158f4e,0.8,low,3654.9166666666665,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-5b051a,0.33,low,583.0,Q4 - Stable,Aucune action prioritaire
+A-296d7c,0.95,high,259.4,Q2 - Action automatisée,Email automatisé de relance
+A-1619f8,0.94,medium,3832.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-a1b80b,0.83,low,2660.875,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-139c3b,0.22,low,1128.375,Q4 - Stable,Aucune action prioritaire
+A-702032,0.91,medium,5572.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-7a0d69,0.89,medium,942.0,Q2 - Action automatisée,Email automatisé de relance
+A-22d9d2,0.58,low,862.3636363636364,Q2 - Action automatisée,Email automatisé de relance
+A-b9eed8,0.95,high,2985.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-dfbd31,0.34,low,1791.357142857143,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-8e47ca,0.91,medium,3124.4444444444443,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-4437e4,0.89,medium,748.7142857142857,Q2 - Action automatisée,Email automatisé de relance
+A-779e4e,0.21,low,2808.1,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-53f4e3,0.8,low,1516.7777777777778,Q2 - Action automatisée,Email automatisé de relance
+A-692f18,0.5,low,1797.0588235294117,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-13466a,0.99,high,3999.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-1986ca,0.16,low,3951.571428571429,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-0cc442,0.83,low,3507.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-c608c8,0.91,medium,1240.2,Q2 - Action automatisée,Email automatisé de relance
+A-3be56b,0.92,medium,1162.625,Q2 - Action automatisée,Email automatisé de relance
+A-354f12,0.96,high,3482.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-68f37c,0.79,low,2689.1666666666665,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-aa9511,0.98,high,1127.0,Q2 - Action automatisée,Email automatisé de relance
+A-af0cd2,1.0,high,583.5714285714286,Q2 - Action automatisée,Email automatisé de relance
+A-bd4513,0.76,low,5750.666666666667,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-c222ab,0.92,medium,3168.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-34d880,0.86,medium,2329.3333333333335,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-508199,0.37,low,1687.2,Q4 - Stable,Aucune action prioritaire
+A-f03140,0.68,low,1962.75,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-410e86,0.37,low,2280.0,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-fa2041,0.97,high,1274.0,Q2 - Action automatisée,Email automatisé de relance
+A-de58ca,0.11,low,2173.181818181818,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-05d3b3,0.85,low,865.8,Q2 - Action automatisée,Email automatisé de relance
+A-249769,0.85,low,1209.0,Q2 - Action automatisée,Email automatisé de relance
+A-e43bf7,1.0,high,8756.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-eb2fdc,0.93,medium,2759.4,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-e1462e,0.31,low,1718.571428571429,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-cab532,0.85,low,1311.6,Q2 - Action automatisée,Email automatisé de relance
+A-9123ac,0.86,medium,2107.285714285714,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-6e08f3,0.94,medium,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-d922bf,0.8,low,2553.8333333333335,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-8ed5dd,0.85,low,1061.0,Q2 - Action automatisée,Email automatisé de relance
+A-7c6b6b,0.96,high,1274.0,Q2 - Action automatisée,Email automatisé de relance
+A-3c1a3f,0.17,low,1242.4166666666667,Q4 - Stable,Aucune action prioritaire
+A-b48f73,0.34,low,4045.714285714286,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-76fa4d,0.95,high,10281.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-b2af2e,0.96,high,695.3333333333334,Q2 - Action automatisée,Email automatisé de relance
+A-9bfc9f,0.24,low,1704.6666666666667,Q4 - Stable,Aucune action prioritaire
+A-4ae22a,0.92,medium,5572.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-fda07f,0.87,medium,2985.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-de24d5,0.29,low,1640.5384615384614,Q4 - Stable,Aucune action prioritaire
+A-977ca0,0.06,low,1878.4375,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-ab438f,0.91,medium,2626.8,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-e89151,0.71,low,2414.8888888888887,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-40906c,0.14,low,5366.666666666667,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-81edc3,0.79,low,1502.6363636363635,Q2 - Action automatisée,Email automatisé de relance
+A-328bd0,0.13,low,1229.1538461538462,Q4 - Stable,Aucune action prioritaire
+A-b3fe05,0.84,low,2721.5555555555557,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-09540c,1.0,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-e693b6,0.89,medium,2110.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-2446e3,0.92,medium,2673.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-241e75,0.98,high,718.8,Q2 - Action automatisée,Email automatisé de relance
+A-922109,0.88,medium,1086.0,Q2 - Action automatisée,Email automatisé de relance
+A-ff3c73,0.76,low,536.4,Q2 - Action automatisée,Email automatisé de relance
+A-8b0451,0.41,low,3170.9,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-331424,0.96,high,799.3333333333334,Q2 - Action automatisée,Email automatisé de relance
+A-51ec1b,1.0,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-bcf664,0.92,medium,912.0,Q2 - Action automatisée,Email automatisé de relance
+A-90a8c8,0.89,medium,1568.0,Q2 - Action automatisée,Email automatisé de relance
+A-86cdb4,0.78,low,394.55555555555554,Q2 - Action automatisée,Email automatisé de relance
+A-4bfa33,0.96,high,800.8571428571429,Q2 - Action automatisée,Email automatisé de relance
+A-dbc825,0.94,medium,3781.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-c70870,0.98,high,294.5,Q2 - Action automatisée,Email automatisé de relance
+A-7c4956,0.22,low,426.125,Q4 - Stable,Aucune action prioritaire
+A-0651a4,0.67,low,2259.214285714286,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-3ce5b8,0.4,low,2749.6666666666665,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-bd4708,0.22,low,2998.076923076923,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-993085,0.97,high,4166.875,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-92a3af,0.16,low,3139.818181818182,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-151c9a,0.99,high,1274.0,Q2 - Action automatisée,Email automatisé de relance
+A-474ad4,0.2,low,808.3333333333334,Q4 - Stable,Aucune action prioritaire
+A-4ef964,0.94,medium,1683.0,Q2 - Action automatisée,Email automatisé de relance
+A-fd9422,0.28,low,3125.5555555555557,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-0baac2,0.94,medium,3083.3333333333335,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-bb1486,0.88,medium,2482.6666666666665,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-560d27,0.32,low,3470.0833333333335,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-0b0d6d,0.91,medium,1800.4,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-2789e3,0.31,low,2040.75,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-b07346,0.92,medium,969.0,Q2 - Action automatisée,Email automatisé de relance
+A-902ef7,0.97,high,4067.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-20736a,0.99,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-e4bf56,0.2,low,2703.714285714286,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-cea1f0,0.3,low,1224.4,Q4 - Stable,Aucune action prioritaire
+A-ef84cf,0.88,medium,1501.4,Q2 - Action automatisée,Email automatisé de relance
+A-d49cc5,0.97,high,1700.0,Q2 - Action automatisée,Email automatisé de relance
+A-67be94,0.97,high,3442.6666666666665,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-4e960a,0.16,low,1995.1666666666667,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-c37cab,0.74,low,3123.5555555555557,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-533452,0.95,high,2214.25,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-443b7c,0.25,low,1503.875,Q4 - Stable,Aucune action prioritaire
+A-1f7acb,0.59,low,5864.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-f51f16,0.87,medium,1663.75,Q2 - Action automatisée,Email automatisé de relance
+A-5a3eb9,0.88,medium,1570.6666666666667,Q2 - Action automatisée,Email automatisé de relance
+A-5f2961,0.97,high,1393.0,Q2 - Action automatisée,Email automatisé de relance
+A-417d2f,0.39,low,1433.3125,Q4 - Stable,Aucune action prioritaire
+A-e98302,0.75,low,2094.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-8bde0c,0.82,low,1899.888888888889,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-bcf87c,0.28,low,1979.090909090909,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-54ecc2,0.72,low,1469.8181818181818,Q2 - Action automatisée,Email automatisé de relance
+A-625d0b,0.81,low,1081.1818181818182,Q2 - Action automatisée,Email automatisé de relance
+A-fce879,0.96,high,1599.5,Q2 - Action automatisée,Email automatisé de relance
+A-b07b56,0.88,medium,1132.2666666666669,Q2 - Action automatisée,Email automatisé de relance
+A-6da850,0.88,medium,1388.6923076923076,Q2 - Action automatisée,Email automatisé de relance
+A-342303,0.99,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-e7a1e2,0.91,medium,1109.6,Q2 - Action automatisée,Email automatisé de relance
+A-f1f639,0.98,high,376.0,Q2 - Action automatisée,Email automatisé de relance
+A-a865bd,1.0,high,1862.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-4e631b,0.21,low,2218.0,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-7f6b86,0.93,medium,1134.3333333333333,Q2 - Action automatisée,Email automatisé de relance
+A-8adedc,0.78,low,2023.428571428571,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-2edab2,0.97,high,1088.0,Q2 - Action automatisée,Email automatisé de relance
+A-149a69,0.94,medium,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-a6d261,0.97,high,1292.5,Q2 - Action automatisée,Email automatisé de relance
+A-443f6f,0.3,low,1510.4444444444443,Q4 - Stable,Aucune action prioritaire
+A-202b67,0.91,medium,1549.625,Q2 - Action automatisée,Email automatisé de relance
+A-00bed1,0.97,high,1159.0,Q2 - Action automatisée,Email automatisé de relance
+A-ffc04f,0.87,medium,2641.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-65c341,0.88,medium,3818.25,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-dcc2f0,0.9,medium,1465.875,Q2 - Action automatisée,Email automatisé de relance
+A-ced9aa,0.38,low,568.3636363636364,Q4 - Stable,Aucune action prioritaire
+A-3d957b,0.99,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-89ee83,0.16,low,2264.2727272727275,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-883b7d,0.1,low,2543.6666666666665,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-dcc3f1,0.75,low,1554.0,Q2 - Action automatisée,Email automatisé de relance
+A-c62e55,0.13,low,1322.4444444444443,Q4 - Stable,Aucune action prioritaire
+A-e4144b,0.33,low,3542.4,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-e40f45,0.85,low,1904.3333333333333,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-96215d,0.66,low,1718.6666666666667,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-2b9d3e,0.24,low,571.3333333333334,Q4 - Stable,Aucune action prioritaire
+A-b7724f,0.8,low,354.6666666666667,Q2 - Action automatisée,Email automatisé de relance
+A-310452,0.96,high,441.0,Q2 - Action automatisée,Email automatisé de relance
+A-eb1312,0.8,low,1225.0,Q2 - Action automatisée,Email automatisé de relance
+A-df1e44,0.9,medium,1317.111111111111,Q2 - Action automatisée,Email automatisé de relance
+A-6a7c9d,0.89,medium,5174.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-cbd1a3,0.39,low,1635.1,Q4 - Stable,Aucune action prioritaire
+A-a8d89d,0.65,low,3390.6666666666665,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-600734,0.58,low,1394.7692307692307,Q2 - Action automatisée,Email automatisé de relance
+A-86fc1d,0.96,high,2744.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-78f02b,0.98,high,3770.25,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-acb7f7,0.94,medium,4492.333333333333,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-712f1c,0.76,low,3480.3,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-3793ee,1.0,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-9a532a,0.79,low,2736.25,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-2ebb4b,0.44,low,3068.8,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-6843f2,0.3,low,1835.5555555555557,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-c9bb3e,0.85,low,1430.625,Q2 - Action automatisée,Email automatisé de relance
+A-4814a3,0.71,low,6133.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-b7b7b7,0.2,low,2379.8333333333335,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-ccc747,0.86,medium,865.6666666666666,Q2 - Action automatisée,Email automatisé de relance
+A-bb3bd4,0.96,high,2047.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-09316c,0.91,medium,5101.25,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-96bbc6,0.8,low,4240.714285714285,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-bc4d48,0.71,low,1770.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-b30291,0.96,high,870.2,Q2 - Action automatisée,Email automatisé de relance
+A-cdf020,0.91,medium,2259.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-e6afc1,0.3,low,2052.909090909091,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-e3bd71,0.96,high,6169.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-b179bf,0.76,low,4278.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-098560,0.84,low,1329.625,Q2 - Action automatisée,Email automatisé de relance
+A-82861f,0.96,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-94c3cd,0.32,low,1506.0,Q4 - Stable,Aucune action prioritaire
+A-a33200,0.9,medium,3596.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-034368,0.99,high,247.0,Q2 - Action automatisée,Email automatisé de relance
+A-b54c01,0.97,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-d82ef9,0.89,medium,1283.0,Q2 - Action automatisée,Email automatisé de relance
+A-bb2f49,0.15,low,2180.909090909091,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-1f559b,0.85,low,1285.111111111111,Q2 - Action automatisée,Email automatisé de relance
+A-5a215a,0.15,low,7230.666666666667,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-3f9cc0,0.9,medium,2848.5714285714284,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-f9cc74,0.25,low,1555.7,Q4 - Stable,Aucune action prioritaire
+A-ed510f,0.94,medium,1029.0,Q2 - Action automatisée,Email automatisé de relance
+A-5c9849,0.94,medium,532.0,Q2 - Action automatisée,Email automatisé de relance
+A-a7bd4b,0.77,low,569.8181818181819,Q2 - Action automatisée,Email automatisé de relance
+A-d4ac0e,0.14,low,1450.3684210526317,Q4 - Stable,Aucune action prioritaire
+A-ffdfd5,0.93,medium,469.0,Q2 - Action automatisée,Email automatisé de relance
+A-0dbdc6,0.93,medium,380.0,Q2 - Action automatisée,Email automatisé de relance
+A-7cfe77,0.92,medium,2553.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-1f0636,0.25,low,8610.0,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-40de06,0.12,low,1803.875,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-cb5333,0.82,low,1259.4,Q2 - Action automatisée,Email automatisé de relance
+A-309e54,0.96,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-6e7827,0.96,high,252.5,Q2 - Action automatisée,Email automatisé de relance
+A-50bb9f,0.83,low,2467.6666666666665,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-5fe118,0.93,medium,5572.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-5247b3,0.89,medium,1115.888888888889,Q2 - Action automatisée,Email automatisé de relance
+A-f44180,0.94,medium,2288.5,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-c16cf7,0.9,medium,1705.5,Q2 - Action automatisée,Email automatisé de relance
+A-d42431,0.92,medium,2264.2,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-6965e1,0.91,medium,2270.25,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-0354fe,0.87,medium,1740.8,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-0a62f5,0.96,high,1215.25,Q2 - Action automatisée,Email automatisé de relance
+A-f5641b,0.7,low,4112.666666666667,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-b44e3e,0.97,high,15721.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-3b37d9,0.78,low,2476.3333333333335,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-54d94a,0.13,low,1141.5454545454545,Q4 - Stable,Aucune action prioritaire
+A-7f29a7,0.97,high,519.3333333333334,Q2 - Action automatisée,Email automatisé de relance
+A-089363,0.97,high,286.0,Q2 - Action automatisée,Email automatisé de relance
+A-524364,0.84,low,1592.0,Q2 - Action automatisée,Email automatisé de relance
+A-855a48,0.95,high,3797.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-756192,0.11,low,2140.0,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-49b828,0.08,low,2222.0,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-c7ffc2,0.91,medium,2932.2,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-751c58,0.8,low,1634.25,Q2 - Action automatisée,Email automatisé de relance
+A-72799b,0.92,medium,1061.0,Q2 - Action automatisée,Email automatisé de relance
+A-812c5b,0.95,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-69b156,0.21,low,1588.111111111111,Q4 - Stable,Aucune action prioritaire
+A-075038,0.92,medium,1393.1538461538462,Q2 - Action automatisée,Email automatisé de relance
+A-940b8b,0.26,low,1205.0,Q4 - Stable,Aucune action prioritaire
+A-2d1036,0.85,low,5451.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-0f6450,0.86,medium,1563.3333333333333,Q2 - Action automatisée,Email automatisé de relance
+A-9affe6,0.96,high,1031.8,Q2 - Action automatisée,Email automatisé de relance
+A-80eeb6,0.86,medium,4010.4,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-d4e0d4,0.81,low,13806.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-c7e58b,0.24,low,769.1428571428571,Q4 - Stable,Aucune action prioritaire
+A-016043,0.97,high,114.0,Q2 - Action automatisée,Email automatisé de relance
+A-bbe56f,0.1,low,1205.0,Q4 - Stable,Aucune action prioritaire
+A-7c5768,0.29,low,376.55555555555554,Q4 - Stable,Aucune action prioritaire
+A-751bd4,0.98,high,190.0,Q2 - Action automatisée,Email automatisé de relance
+A-4e0e85,0.97,high,597.0,Q2 - Action automatisée,Email automatisé de relance
+A-ad3abd,0.99,high,3916.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-e19ff6,0.9,medium,257.0,Q2 - Action automatisée,Email automatisé de relance
+A-7920cc,0.17,low,3255.5625,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-5a92e7,0.87,medium,778.5714285714286,Q2 - Action automatisée,Email automatisé de relance
+A-fdfc91,0.13,low,2061.2,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-1e50e0,0.91,medium,2861.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-1e1b80,0.93,medium,4053.9166666666665,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-659280,0.87,medium,2145.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-f6b2fb,0.95,high,1707.75,Q2 - Action automatisée,Email automatisé de relance
+A-cb6cc6,0.16,low,374.57142857142856,Q4 - Stable,Aucune action prioritaire
+A-d62e02,0.26,low,2132.4,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-d535f6,0.88,medium,705.0,Q2 - Action automatisée,Email automatisé de relance
+A-39868b,0.76,low,1791.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-3cc791,0.91,medium,965.4285714285714,Q2 - Action automatisée,Email automatisé de relance
+A-337bc1,0.94,medium,4118.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-58b9ff,0.86,medium,2037.9,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-bf7919,0.97,high,298.5,Q2 - Action automatisée,Email automatisé de relance
+A-1d5444,0.95,high,2790.714285714286,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-0f3e88,0.87,medium,678.4285714285714,Q2 - Action automatisée,Email automatisé de relance
+A-7641d3,0.94,medium,1100.7142857142858,Q2 - Action automatisée,Email automatisé de relance
+A-cd458b,0.89,medium,2589.818181818182,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-c16b88,0.88,medium,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-59f724,0.49,low,814.4166666666666,Q4 - Stable,Aucune action prioritaire
+A-87aa7b,0.85,low,1430.0625,Q2 - Action automatisée,Email automatisé de relance
+A-1e6fc3,0.97,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-39ddf4,0.95,high,5058.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-34ea2f,0.38,low,956.3333333333334,Q4 - Stable,Aucune action prioritaire
+A-716841,0.92,medium,1387.3333333333333,Q2 - Action automatisée,Email automatisé de relance
+A-558c72,0.62,low,1310.142857142857,Q2 - Action automatisée,Email automatisé de relance
+A-b11cd0,0.47,low,801.0,Q4 - Stable,Aucune action prioritaire
+A-cc1d8d,0.85,low,723.1428571428571,Q2 - Action automatisée,Email automatisé de relance
+A-7f4db3,0.93,medium,1592.0,Q2 - Action automatisée,Email automatisé de relance
+A-db5e9e,0.9,medium,1156.375,Q2 - Action automatisée,Email automatisé de relance
+A-cc102e,0.98,high,975.8571428571428,Q2 - Action automatisée,Email automatisé de relance
+A-82d8a6,0.65,low,1962.571428571429,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-dec005,0.88,medium,3074.4,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-5790f4,0.92,medium,3154.3333333333335,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-7c83a1,0.96,high,1470.0,Q2 - Action automatisée,Email automatisé de relance
+A-297a2d,0.24,low,2874.6,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-4c56c9,0.9,medium,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-cbbe12,0.16,low,2180.1666666666665,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-4a267b,0.88,medium,5771.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-bcbe98,0.82,low,2213.1111111111113,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-427b69,0.27,low,1995.8,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-0be015,0.98,high,392.6666666666667,Q2 - Action automatisée,Email automatisé de relance
+A-054577,0.27,low,2787.5625,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-bc87bc,0.21,low,1504.0,Q4 - Stable,Aucune action prioritaire
+A-0f7d77,1.0,high,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-e7beab,0.95,high,1840.75,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-a09355,0.8,low,2439.25,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-31ab9a,0.91,medium,1114.75,Q2 - Action automatisée,Email automatisé de relance
+A-0158bb,0.28,low,678.3333333333334,Q4 - Stable,Aucune action prioritaire
+A-f19b24,0.25,low,841.0,Q4 - Stable,Aucune action prioritaire
+A-798a3f,0.94,medium,1065.1666666666667,Q2 - Action automatisée,Email automatisé de relance
+A-42b791,0.89,medium,2722.8571428571427,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-068fc6,0.23,low,2908.5,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-6f50ae,0.87,medium,1125.75,Q2 - Action automatisée,Email automatisé de relance
+A-a2485e,0.35,low,1462.5,Q4 - Stable,Aucune action prioritaire
+A-bb1eaa,0.97,high,1659.0,Q2 - Action automatisée,Email automatisé de relance
+A-cc98bc,0.15,low,2156.7,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-d77f4c,0.85,low,3733.076923076923,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-ccabf0,0.93,medium,2237.9,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-700ade,0.93,medium,2109.375,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-4a4c2d,0.1,low,2612.769230769231,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-b7ef83,0.92,medium,1980.1666666666667,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-e08cd3,0.65,low,6974.7,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-19b2c8,0.94,medium,2065.7272727272725,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-970c97,0.29,low,1922.625,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-6dee43,0.97,high,1251.0,Q2 - Action automatisée,Email automatisé de relance
+A-5ed98d,0.92,medium,2976.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-c58f49,0.94,medium,7630.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-9c18c4,0.15,low,1782.3,Q3 - Surveiller,"Suivi mensuel, offre fidélisation"
+A-cc8c8f,0.8,low,2003.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-5f7781,0.97,high,2050.4,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-e1b9cd,0.78,low,2547.846153846154,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-ac85cd,0.87,medium,2662.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-d792a6,0.76,low,778.0,Q2 - Action automatisée,Email automatisé de relance
+A-ac9111,0.9,medium,1202.0,Q2 - Action automatisée,Email automatisé de relance
+A-18793f,0.87,medium,7858.8,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-9f0b68,0.56,low,2825.2,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-d3c88e,0.98,high,950.4,Q2 - Action automatisée,Email automatisé de relance
+A-ccb686,0.7,low,1934.2,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-118f1c,0.76,low,4776.0,Q1 - Priorité maximale,Appel CSM immédiat sous 24h
+A-0e966d,0.21,low,1131.3636363636365,Q4 - Stable,Aucune action prioritaire
+A-b9f5b1,0.92,medium,0.0,Q2 - Action automatisée,Email automatisé de relance
+A-8ae3fc,0.81,low,809.0,Q2 - Action automatisée,Email automatisé de relance
+A-55f257,0.53,low,1213.7,Q2 - Action automatisée,Email automatisé de relance
+A-d26ab4,0.93,medium,1255.75,Q2 - Action automatisée,Email automatisé de relance
+A-712533,0.89,medium,1324.0,Q2 - Action automatisée,Email automatisé de relance
+A-781cc0,0.92,medium,1144.6875,Q2 - Action automatisée,Email automatisé de relance
