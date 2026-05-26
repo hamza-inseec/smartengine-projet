@@ -12,3 +12,4 @@ docs/exploration-*/ # Cette règle ignorait tout le dossier
 __pycache__/
 *.pyc
 .env
+gi
